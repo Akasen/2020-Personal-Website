@@ -24,6 +24,10 @@ section {
   outline: auto;
 }
 
+h1 {
+  margin: 20px 50px;
+}
+
 .wrapper {
   display: grid;
   grid-gap: 20px;
@@ -32,6 +36,10 @@ section {
 /* Basic Tags */
 
 /* Content */
+section .content {
+  background-color: antiquewhite;
+}
+
 .content {
   margin: 20px 50px;
 }
@@ -42,6 +50,10 @@ section {
   grid-template-columns: repeat(1, 1fr);
 }
 
+.showcase-item {
+  font-size: large;
+  outline: dotted;
+}
 .showcase {
   display: grid;
   outline: none;
@@ -69,6 +81,7 @@ section {
   text-transform: uppercase;
   font-size: 1.1rem;
   box-shadow: var(--shadow);
+  outline: solid;
 }
 
 .main-nav a:hover {
