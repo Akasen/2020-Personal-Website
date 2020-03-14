@@ -12,10 +12,9 @@ body {
 }
 .profilepic {
   top: 1em;
-  padding-bottom: 1em;
   left: 30%;
   position: relative;
-  border-radius: 100%;
+  border-radius: 50%;
   height: 128px;
   width: 128px;
 }
